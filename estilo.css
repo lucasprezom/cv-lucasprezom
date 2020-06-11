@@ -15,7 +15,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
     top: 0;
     width: 100%;  
   }
@@ -32,6 +31,22 @@ li a:hover {
     color: white;
     text-align: center;
   }
-  .textoinicio {
+  .caixa1 {
     text-align: center;
+  }
+  
+  Body {
+    background-color: rgb(26, 24, 24);
+    line-height: 1,5;
+    
+  }
+  main {
+    display: center;
+    background-color: whitesmoke;
+    height: 800;
+    width: 700;
+    padding: 5px;
+    position: center;
+    border-radius: 7px;
+
   }
