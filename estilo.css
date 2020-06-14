@@ -1,3 +1,18 @@
+main
+
+{
+
+  width: 65%;
+  max-width: 800px;
+  margin: auto;
+  font-family: lato;
+  background-color: whitesmoke;
+  line-height: 1.5;
+  padding: 2px 2px;
+  margin-top: 34px;
+  border-radius: 4px;
+}
+
 li {
   display: inline;
   float: left;
@@ -16,12 +31,14 @@ ul {
     overflow: hidden;
     background-color: #333;
     top: 0;
-    width: 100%;  
+    width: 100%; 
+    border-radius: 4px;
   }
   
 li a:hover {
     background-color: rgb(28, 224, 110);
   } 
+
   .footer {
     position: fixed;
     left: 0;
@@ -31,22 +48,18 @@ li a:hover {
     color: white;
     text-align: center;
   }
-  .caixa1 {
+
+  body {
+    background-color: rgb(32, 30, 30);
+  }
+
+  .titulo {
     text-align: center;
   }
-  
-  Body {
-    background-color: rgb(26, 24, 24);
-    line-height: 1,5;
-    
+  .imagemprofile {
+    text-align: center;
   }
-  main {
-    display: center;
-    background-color: whitesmoke;
-    height: 800;
-    width: 700;
-    padding: 5px;
-    position: center;
-    border-radius: 7px;
-
-  }
+ .texto1 {
+   text-align: center;
+   padding: 10px;
+ }
